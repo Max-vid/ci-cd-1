@@ -3,7 +3,7 @@ name: Code
 
 #when the workflows should run
 on:
-  push:
+  workflow_call:
 
 #job in workflow
 jobs:
