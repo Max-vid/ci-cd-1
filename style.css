@@ -1,0 +1,232 @@
+*
+{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.nav_bar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white ;
+    display: flex;
+    padding-left: 10px;
+    
+    
+}
+.nav_logo
+{
+    height: 40px;
+    width: 110px;
+    padding:8px;
+    margin-left: 10px;
+   
+    
+   
+}
+.logo{
+
+   
+ background-image: url("/IMAGES/amazonLogo.png");
+ background-size: cover;
+ height: 40px;
+ width: 107px;
+ padding-top: 15px;
+ margin-top: -7px
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav_address
+{
+ 
+    height: 43px;
+    width: 100px;
+    margin-left: 10px; 
+    padding :6px;  
+   
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+} 
+.add_icon{
+    padding: 3px;
+    background-color: rgb(229, 144, 59);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_icon:hover{
+    background-color: rgb(242, 226, 82);
+}
+.nav_search
+{
+     height: 40px;
+    width: 850px; 
+display: flex;
+padding: 10px;
+padding-left: 20px;
+    
+}
+input{
+    width: 2000px;
+}
+.location{
+    display: flex;
+width: 50px;
+border: 2px solid transparent;
+height: 10px;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+} 
+.loaction{
+    display: flex;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+}
+
+.india{
+    width: 5px;
+    display: flex;
+    padding-right: 20px;
+    height: 20px;
+    padding-top: 30px;
+}
+.flag{
+    width: 20px;
+    
+}
+.lang{
+    padding-left: 5px;
+    padding-top: 31px;
+}
+.signIn{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.signin{
+    font-size:smaller;
+}
+.account{
+    font-size: small;
+    font: bolder;
+    padding-top: 5px;
+}
+
+.return_and_order{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+} 
+.return{
+    font-size: small;
+}
+.order{
+    font-size: large;
+    font-weight: 100;
+}
+.cart
+{
+    padding-left: 10px;
+    padding-top: 25px;
+    display: flex;
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+} 
+.nav_menu{
+    display: flex;
+    background: #142637;
+    height: 40px;
+    align-items: center;
+    padding-left: 20px;
+}
+.font_menu{
+    color: white;
+    padding-left: 20px;
+    font-size: small;
+    
+    
+}
+
+.main_body{
+    height: 100%;
+    display:grid;
+    grid-auto-flow: column;
+   
+    
+
+}
+.home_image{
+    width: 1536px;
+    height: max-content;
+
+}
+.imgBox{
+    position: relative;
+    display: inline-flex;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill,);
+    
+    
+    
+    
+}
+.item_box{
+height: 500px;
+width: 400px;
+background-color: aliceblue;
+display: flex;
+justify-self: center;
+    align-items: center;
+    margin: 20px;
+    display: grid ;
+
+    
+}
+.innerBox{
+    background-color: #142637;
+   height: 150px;
+   width: 150px;
+   margin: 10px;
+    display:grid;
+    
+    
+}
